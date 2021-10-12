@@ -12,13 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        playwithAi()
+
 
         binding.buttonPlaywith2Players.setOnClickListener {
             playwith2Players()
         }
         binding.buttonPlaywithAi.setOnClickListener {
-
+            playwithAi()
         }
 
     }
